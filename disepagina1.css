@@ -21,6 +21,9 @@ body {
   width: 100%;     /* Se ajusta al ancho del contenedor */
   height: auto;    /* Mantiene la proporción */
   max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
