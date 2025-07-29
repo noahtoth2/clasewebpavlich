@@ -7,5 +7,12 @@ h1{
     text-align: center;
 }
 
+body {
+  background-color: #3498db; /* Azul claro, puedes cambiarlo */
+  margin: 0; /* Quita márgenes por defecto */
+  height: 100vh; /* Asegura que cubra toda la altura de la pantalla */
+}
+
+
 
 
