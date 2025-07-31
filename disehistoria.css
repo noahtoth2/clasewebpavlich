@@ -7,9 +7,9 @@ h1 {
     text-align: center;
     margin-top: 20px;
 }
-p{
-  font-family: "Playwrite AU QLD", cursive;
+p {
+  font-family: 'Roboto', sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
