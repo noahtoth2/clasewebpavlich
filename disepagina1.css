@@ -19,17 +19,19 @@ body {
 
 
 .imagen_beatles {
+    text-align: center;
+    margin-top: 30px;
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    width: 85%;
-    height: auto;
-    max-width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
+
+.imagen_beatles img {
+    max-width: 90%;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 
 
 
