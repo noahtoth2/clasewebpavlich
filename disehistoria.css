@@ -1,0 +1,15 @@
+h1 {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Ejemplo: negrita */
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+p {
+  font-family: "Playwrite AU QLD", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

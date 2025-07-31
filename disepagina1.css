@@ -1,29 +1,68 @@
-h1{
-    color:black;
+h1 {
+    color: black;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 700; /* Ejemplo: negrita */
     font-style: normal;
     text-align: center;
+    margin-top: 20px;
 }
+
 
 body {
-  background-color: #FCECBB; /* Azul claro, puedes cambiarlo */
-  margin: 0; /* Quita márgenes por defecto */
-  height: 100vh; /* Asegura que cubra toda la altura de la pantalla */
+  background-color: #FCECBB;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  padding: 0 15px;
 }
 
-.imagen_beatles{
+
+.imagen_beatles {
+    text-align: center;
+    margin-top: 30px;
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  width: 100%;     /* Se ajusta al ancho del contenedor */
-  height: auto;    /* Mantiene la proporción */
-  max-width: 600px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
+
+.imagen_beatles img {
+    max-width: 90%;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.barrabusqueda {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 10px;
+}
+
+.barrabusqueda input[type="text"] {
+    padding: 8px 12px;
+    width: 250px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+}
+
+.buscador button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+
+.buscador button:hover {
+    background-color: #555;
+}
+
+
 
 
