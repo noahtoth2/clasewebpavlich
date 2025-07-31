@@ -39,7 +39,7 @@ body {
     gap: 10px;
 }
 
-.barrabusqueda input[type="text"] {
+.buscador input[type="text"] {
     padding: 8px 12px;
     width: 250px;
     font-size: 16px;
