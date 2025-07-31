@@ -40,33 +40,33 @@ body {
   padding: 10px 30px;
 }
 
-.buscador input[type="text"] {
-    padding: 8px 12px;
-    width: 250px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-family: "Roboto", sans-serif;
-}
 
-.buscador button {
-    padding: 8px 16px;
-    font-size: 16px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-}
-
-.buscador button:hover {
-    background-color: #555;
-}
 .menu {
   display: flex;
   flex-wrap: wrap;
 }
 
+.barra-busqueda {
+  display: flex;
+}
+
+.buscador input {
+  padding: 6px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.buscador button {
+  padding: 6px 10px;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.buscador button:hover {
+  background-color: #777;
+}
 
 
