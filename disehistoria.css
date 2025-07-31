@@ -1,0 +1,9 @@
+h1 {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Ejemplo: negrita */
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+}
