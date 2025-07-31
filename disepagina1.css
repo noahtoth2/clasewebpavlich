@@ -32,14 +32,14 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.buscador {
+.barrabusqueda {
     display: flex;
     justify-content: center;
     margin: 20px auto;
     gap: 10px;
 }
 
-.buscador input[type="text"] {
+.barrabusqueda input[type="text"] {
     padding: 8px 12px;
     width: 250px;
     font-size: 16px;
@@ -48,7 +48,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.buscador button {
+.barrabusqueda button {
     padding: 8px 16px;
     font-size: 16px;
     background-color: #333;
