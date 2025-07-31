@@ -32,6 +32,37 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.buscador {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 10px;
+}
+
+.buscador input[type="text"] {
+    padding: 8px 12px;
+    width: 250px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+}
+
+.buscador button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+
+.buscador button:hover {
+    background-color: #555;
+}
+
 
 
 
