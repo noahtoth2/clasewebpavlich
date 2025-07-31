@@ -33,10 +33,11 @@ body {
 }
 
 .barrabusqueda {
-    display: flex;
-    justify-content: center;
-    margin: 20px auto;
-    gap: 10px;
+      background-color: #333; /* color de fondo */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
 }
 
 .buscador input[type="text"] {
