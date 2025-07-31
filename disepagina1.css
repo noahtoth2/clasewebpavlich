@@ -62,7 +62,10 @@ body {
 .buscador button:hover {
     background-color: #555;
 }
-
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 
 
