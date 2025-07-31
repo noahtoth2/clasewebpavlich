@@ -1,29 +1,35 @@
-h1{
-    color:black;
+h1 {
+    color: black;
     font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Ejemplo: negrita */
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+body {
+  background-color: #FCECBB;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  padding: 0 15px;
+}
+
+
+.imagen_beatles {
+    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    text-align: center;
+    width: 85%;
+    height: auto;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-body {
-  background-color: #FCECBB; /* Azul claro, puedes cambiarlo */
-  margin: 0; /* Quita márgenes por defecto */
-  height: 100vh; /* Asegura que cubra toda la altura de la pantalla */
-}
-
-.imagen_beatles{
-    font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  width: 85%;     /* Se ajusta al ancho del contenedor */
-  height: auto;    /* Mantiene la proporción */
-  max-width: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 
