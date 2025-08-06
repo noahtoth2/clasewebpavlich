@@ -11,3 +11,11 @@ h1 {
   margin-top: 40px;
   font-size: 36px;
 }
+
+a {
+  text-decoration: none; /* Removes underline */
+  color: #4B0082; /* Optional: set a nice purple color */
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: color 0.3s;
+}
