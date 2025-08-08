@@ -1,11 +1,16 @@
-h1 {
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700; /* Ejemplo: negrita */
-    font-style: normal;
-    text-align: center;
-    margin-top: 20px;
+h1, h2, h3, h4, h5, h6 {
+  text-decoration: underline;
+  text-decoration-color: #00BFFF; 
+}
+
+
+.imagen_beatles img {
+  max-width: 90%;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid black; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 

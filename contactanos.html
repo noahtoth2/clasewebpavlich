@@ -1,39 +1,44 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
     <meta charset="UTF-8">
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <link rel="stylesheet" href="disepagina1.css">
-        <meta charset="UTF-8">
-        <title>Contáctanos</title>
-        <div class="barrabusqueda">
-         <nav class="menu"></nav>
-        <a href="#">Inicio</a>
-        <a href="artistas.html">Artistas</a>
-        <a href="albums.html">Albums</a>
-        <a href="historia.html">Historia</a>
-        <a href="noticiasynovedades.html">Noticias Y Novedades</a>
-        <a href="curiosidades.html">Curiosidades</a>
-        <a href="#">Redes Sociales Oficiales</a>
-        <a href="contactanos.html">Contactanos</a>
-
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="disepagina1.css">
+</head>
+<body>
+    <div class="barrabusqueda">
+        <nav class="menu">
+            <a href="pagina1.html">Inicio</a>
+            <a href="artistas.html">Artistas</a>
+            <a href="albums2.html">Albums</a>
+            <a href="historia.html">Historia</a>
+            <a href="noticiasynovedades.html">Noticias Y Novedades</a>
+            <a href="curiosidades.html">Curiosidades</a>
+            <a href="redessocialesoficiales.html">Redes Sociales Oficiales</a>
+            <a href="contactanos.html">Contáctanos</a>
+        </nav>
     </div>
-    </head>
-    <body>
-        <h1>Contact Us</h1>
-        <p>Para contacto utiliza el chat siguiente:</p>
-        <div class="chat-box" style="width:350px; margin:40px auto; border:1px solid #b51717; border-radius:10px; padding:20px; box-shadow:0 0 10px #ccc;">
-            <div id="chat-mensajes" style="height:200px; overflow-y:auto; background:#bbe2bf; border-radius:5px; padding:10px; margin-bottom:10px;">
-                
-            </div>
-            <form id="chat-form">
-                <input type="text" id="chat-input" placeholder="Escribe tu mensaje..." style="width:75%; padding:8px;">
-                <button type="submit" style="padding:8px 12px;">Enviar</button>
-            </form>
+
+    <h1>Contáctanos</h1>
+    <p>Para contacto utiliza el chat siguiente:</p>
+
+    <div class="chat-box" style="width:350px; margin:40px auto; border:1px solid #b51717; border-radius:10px; padding:20px; box-shadow:0 0 10px #ccc;">
+        <div id="chat-mensajes" style="height:200px; overflow-y:auto; background:#bbe2bf; border-radius:5px; padding:10px; margin-bottom:10px;">
+            <!-- Mensajes se mostrarán aquí -->
         </div>
-    </body>
-    </html>
+        <form id="chat-form" novalidate>
+            <div style="margin-bottom:10px;">
+                <input type="text" id="nombre" placeholder="Tu nombre..." style="width:75%; padding:8px;">
+                <div id="error-nombre" style="color:red; font-size:12px;"></div>
+            </div>
+            <div style="margin-bottom:10px;">
+                <input type="text" id="chat-input" placeholder="Escribe tu mensaje..." style="width:75%; padding:8px;">
+                <div id="error-mensaje" style="color:red; font-size:12px;"></div>
+            </div>
+            <button type="submit" style="padding:8px 12px;">Enviar</button>
+        </form>
+    </div>
 
-    
-
+    <script src="contactanos.js"></script> <!-- O puedes poner el JS dentro de <script> aquí -->
+</body>
 </html>

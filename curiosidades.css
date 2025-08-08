@@ -27,8 +27,7 @@ h1 {
     text-decoration: underline;
 }
 
-/* Estilo de las secciones */
-.cronologia {
+.curiosidades {
     border: 2px solid #444;
     padding: 15px;
     margin: 20px auto;
@@ -37,32 +36,17 @@ h1 {
     background: linear-gradient(to bottom, #fff7d6, #f0d98c);
 }
 
-/* Listas no numeradas: viñetas de color distinto al texto */
-.cronologia ul {
+.curiosidades ul {
     list-style-type: disc;
     padding-left: 20px;
 }
 
-.cronologia ul li {
-    color: #222; /* texto */
+.curiosidades ul li {
+    color: #222; /* Texto */
 }
 
-.cronologia ul li::marker {
-    color: red; /* viñetas */
-}
-
-/* Listas numeradas: números de color distinto al texto */
-.cronologia ol {
-    padding-left: 20px;
-}
-
-.cronologia ol li {
-    color: #222; /* texto */
-}
-
-.cronologia ol li::marker {
-    color: blue; /* números */
-    font-weight: bold;
+.curiosidades ul li::marker {
+    color: green; /* Color de viñetas distinto al texto */
 }
 
 .volver {
@@ -72,14 +56,7 @@ h1 {
     font-weight: bold;
     color: #333;
 }
+
 .volver:hover {
     text-decoration: underline;
-}
-
-.barrabusqueda {
-      background-color: #dfa110a2; /* color de fondo */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 30px;
 }
